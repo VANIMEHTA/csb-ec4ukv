@@ -29,18 +29,25 @@ body {
   width: 40%;
   display: inline-flex;
   padding: none;
+  position:relative;
 }
 
 .woman-img {
+  transform: translateX(-10%);
   padding-top: 25px;
   height: 360px;
   width: 300px;
-  margin-right: none;
+  
 }
 .box-img {
-  padding-top: 11rem;
+  z-index: 1;
+  position: absolute;
+  top: 15rem;
+  left: 0rem;
+  transform: translate(-50%, -50%);
   height: 300px;
   width: 158px;
+  
 }
 .right {
   padding-left: 10em;
