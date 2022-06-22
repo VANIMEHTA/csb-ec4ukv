@@ -1,0 +1,88 @@
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+}
+body {
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(hsl(273, 75%, 66%)),
+      to(hsl(240, 73%, 65%))
+    )
+    fixed;
+}
+.container {
+  margin: 6rem;
+  display: flex;
+  width: 80vw;
+  height: 70vh;
+  border-radius: 10px;
+  background-color: white;
+  background-image: url(/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+}
+.left {
+  width: 40%;
+  display: inline-flex;
+  padding: none;
+}
+
+.woman-img {
+  padding-top: 25px;
+  height: 360px;
+  width: 300px;
+  margin-right: none;
+}
+.box-img {
+  padding-top: 11rem;
+  height: 300px;
+  width: 158px;
+}
+.right {
+  padding-left: 10em;
+}
+hr {
+  display: flex;
+  width: 80%;
+  height: 4px;
+  background-color: hsl(240, 5%, 91%);
+  border-radius: 4px;
+
+  margin: 1em 0;
+  padding: 0;
+}
+p {
+  font-size: 17px;
+}
+.hide {
+  padding: 0 18px;
+  color: grey;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+.active {
+  font-weight: bold;
+  color: hsl(238, 29%, 16%);
+}
+.answer {
+  color: grey;
+  display: block;
+}
+.questions {
+  font-size: 17px;
+}
+p:hover {
+  color: hsl(14, 88%, 65%);
+  cursor: pointer;
+}
+.arrow {
+  float: right;
+  padding-top: 0.5em;
+  padding-right: 4em;
+  transition: 0.4s;
+}
